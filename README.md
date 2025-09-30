@@ -17,8 +17,8 @@ To develop a Recurrent Neural Network model for stock price prediction.
 
 
 ## PROGRAM:
-### Name: RITHIGA SRI.B
-### Register Number: 212221230083
+### Name: V.S. Sree Viveka
+### Register Number: 2305001031
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -27,7 +27,7 @@ from sklearn.preprocessing import MinMaxScaler
 from keras import layers
 from keras.models import Sequential
 
-dataset_train = pd.read_csv('trainset.csv')
+dataset_train = pd.read_csv('trainset.csv')  
 
 dataset_train.columns
 
@@ -94,11 +94,13 @@ plt.show()
 ## OUTPUT:
 
 ### True Stock Price, Predicted Stock Price vs time:
-![image](https://github.com/Rithigasri/rnn-stock-price-prediction/assets/93427256/72227e48-f0cc-40d9-85db-fd81a8146b5e)
+<img width="646" height="441" alt="Screenshot 2025-09-30 091314" src="https://github.com/user-attachments/assets/bfff4842-6b9c-46e9-86ee-c3ea080f6a0c" />
+
 
 ### Mean Square Error:
-![image](https://github.com/Rithigasri/rnn-stock-price-prediction/assets/93427256/b052a611-bb4e-4936-9cae-7ebe5cdb763f)
+V.S.Sree Viveka : 2305001031
 
+MEAN SQUARE ERROR : 540392.5569869860087
 
 ## RESULT:
 Thus the stock price is predicted using Recurrent Neural Networks successfully.
